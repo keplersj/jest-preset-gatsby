@@ -1,14 +1,15 @@
 {
   "name": "jest-preset-gatsby",
-  "version": "0.0.0-dev",
+  "version": "0.0.0-development",
   "description": "Preset to simplify testing Gatsby sites with Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keplersj/jest-preset-gatsby.git"
+    "url": "https://github.com/keplersj/jest-preset-gatsby.git"
   },
   "keywords": [
     "gatsby",
@@ -51,6 +52,7 @@
     "jest": "^24.8.0",
     "jest-runner-eslint": "^0.7.4",
     "jest-runner-prettier": "^0.2.7",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "semantic-release": "^15.13.19"
   }
 }
