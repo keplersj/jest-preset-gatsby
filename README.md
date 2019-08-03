@@ -1,6 +1,7 @@
 # jest-preset-gatsby
 
 [![Build Status](https://travis-ci.org/keplersj/jest-preset-gatsby.svg?branch=master)](https://travis-ci.org/keplersj/jest-preset-gatsby)
+[![npm version](https://badge.fury.io/js/jest-preset-gatsby.svg)](https://badge.fury.io/js/jest-preset-gatsby)
 
 Preset for testing Gatsby sites using Jest, based off [the official documentation on testing Gatsby with Jest](https://www.gatsbyjs.org/docs/unit-testing/). Compatible with both JavaScript and TypeScript codebases.
 
