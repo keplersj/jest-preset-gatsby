@@ -23,11 +23,26 @@
     "url": "https://github.com/keplersj/jest-preset-gatsby/issues"
   },
   "homepage": "https://github.com/keplersj/jest-preset-gatsby#readme",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "dependencies": {
     "@babel/preset-typescript": "^7.3.3",
     "babel-jest": "^24.8.0",
     "babel-preset-gatsby": "^0.2.8",
     "identity-obj-proxy": "^3.0.0",
     "jest-raw-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "husky": "^3.0.2"
   }
 }
