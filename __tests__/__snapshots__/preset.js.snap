@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Preset for Gatsby Projects matches expectations 1`] = `
+Object {
+  "globals": Object {
+    "__PATH_PREFIX__": "",
+  },
+  "moduleFileExtensions": Array [
+    "js",
+    "jsx",
+    "json",
+    "node",
+  ],
+  "moduleNameMapper": Object {
+    ".+\\\\.(css|styl|less|sass|scss)$": "identity-obj-proxy",
+    ".+\\\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "jest-raw-loader",
+  },
+  "setupFiles": Array [
+    "../../loadershim.js",
+  ],
+  "testPathIgnorePatterns": Array [
+    "node_modules",
+    ".cache",
+  ],
+  "testRegex": "(/__tests__/.*|(\\\\.|/)(test|spec))\\\\.(jsx?)$",
+  "testURL": "http://localhost",
+  "transform": Object {
+    "^.+\\\\.jsx?$": "../../preprocess.js",
+  },
+  "transformIgnorePatterns": Array [
+    "node_modules/(?!(gatsby)/)",
+  ],
+}
+`;
