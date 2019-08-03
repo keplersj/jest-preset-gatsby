@@ -1,0 +1,33 @@
+{
+  "name": "jest-preset-gatsby",
+  "version": "0.0.0-dev",
+  "description": "Preset to simplify testing Gatsby sites with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keplersj/jest-preset-gatsby.git"
+  },
+  "keywords": [
+    "gatsby",
+    "jest",
+    "unit-testing",
+    "typescript",
+    "testing"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keplersj/jest-preset-gatsby/issues"
+  },
+  "homepage": "https://github.com/keplersj/jest-preset-gatsby#readme",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-jest": "^24.8.0",
+    "babel-preset-gatsby": "^0.2.8",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-raw-loader": "^1.0.1"
+  }
+}
