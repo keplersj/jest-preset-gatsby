@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const babelOptions = {
   presets: ["babel-preset-gatsby"]
 };
