@@ -4,10 +4,8 @@ module.exports = {
       displayName: "test"
     },
     {
-      runner: "prettier",
-      displayName: "lint:prettier",
-      moduleFileExtensions: ["js", "json", "md"],
-      testMatch: ["**/*.js", "**/*.json", "**/*.md"]
+      preset: "jest-runner-prettier",
+      displayName: "lint:prettier"
     },
     {
       runner: "eslint",
