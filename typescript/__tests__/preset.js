@@ -2,10 +2,10 @@ const path = require("path");
 
 // Remove undeterministic data from test reports
 expect.addSnapshotSerializer({
-  print: (val, serialize) => {
-    return serialize(path.relative(__filename, val));
+  print: (value, serialize) => {
+    return serialize(path.relative(__filename, value));
   },
-  test: val => typeof val === "string" && path.isAbsolute(val)
+  test: value => typeof value === "string" && path.isAbsolute(value)
 });
 
 describe("Jest Preset for Gatsby+TypeScript Projects", () => {
