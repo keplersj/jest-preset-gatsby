@@ -35,23 +35,23 @@
     }
   },
   "dependencies": {
-    "@babel/preset-typescript": "^7.3.3",
-    "babel-jest": "^25.1.0",
-    "babel-preset-gatsby": "^0.3.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-jest": "^25.4.0",
+    "babel-preset-gatsby": "^0.3.6",
     "identity-obj-proxy": "^3.0.0",
     "jest-raw-loader": "^1.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
-    "eslint": "^6.1.0",
-    "eslint-config-starstuff": "^1.4.5",
-    "husky": "^4.0.0",
-    "jest": "^25.1.0",
-    "jest-runner-eslint": "^0.7.4",
-    "jest-runner-prettier": "^0.3.1",
-    "prettier": "^2.0.3",
-    "semantic-release": "^17.0.1"
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "eslint": "^6.8.0",
+    "eslint-config-starstuff": "^1.4.42",
+    "husky": "^4.2.5",
+    "jest": "^25.4.0",
+    "jest-runner-eslint": "^0.7.7",
+    "jest-runner-prettier": "^0.3.6",
+    "prettier": "^2.0.5",
+    "semantic-release": "^17.0.7"
   },
   "eslintConfig": {
     "extends": "starstuff/auto",
