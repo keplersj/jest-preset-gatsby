@@ -28,7 +28,7 @@ Configure Jest to use the preset in `jest.config.js`:
 
 ```js
 module.exports = {
-  preset: "jest-preset-gatsby"
+  preset: "jest-preset-gatsby",
 };
 ```
 
@@ -48,7 +48,7 @@ This preset also includes a preset for TypeScript projects; configure Jest to us
 
 ```js
 module.exports = {
-  preset: "jest-preset-gatsby/typescript"
+  preset: "jest-preset-gatsby/typescript",
 };
 ```
 
@@ -88,11 +88,11 @@ module.exports = {
     }) =>
       React.createElement("a", {
         ...rest,
-        href: to
+        href: to,
       })
   ),
   StaticQuery: jest.fn(),
-  useStaticQuery: jest.fn()
+  useStaticQuery: jest.fn(),
 };
 ```
 

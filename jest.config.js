@@ -1,17 +1,17 @@
 module.exports = {
   projects: [
     {
-      displayName: "test"
+      displayName: "test",
     },
     {
       preset: "jest-runner-prettier",
-      displayName: "lint:prettier"
+      displayName: "lint:prettier",
     },
     {
       runner: "eslint",
       displayName: "lint:eslint",
       moduleFileExtensions: ["js"],
-      testMatch: ["**/*.js"]
-    }
-  ]
+      testMatch: ["**/*.js"],
+    },
+  ],
 };
