@@ -37,7 +37,7 @@
   "dependencies": {
     "@babel/preset-typescript": "^7.9.0",
     "babel-jest": "^26.0.0",
-    "babel-preset-gatsby": "^0.7.0",
+    "babel-preset-gatsby": "^0.8.0",
     "identity-obj-proxy": "^3.0.0",
     "jest-raw-loader": "^1.0.1"
   },
