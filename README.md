@@ -105,4 +105,4 @@ module.exports = {
 
 ## License
 
-Copyright 2019 Kepler Sticka-Jones. Licensed MIT
+Copyright [Kepler Sticka-Jones](https://keplersj.com) 2019-2021. Licensed MIT
