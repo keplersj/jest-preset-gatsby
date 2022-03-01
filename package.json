@@ -49,7 +49,7 @@
     "husky": "^7.0.0",
     "jest": "^27.0.4",
     "jest-runner-eslint": "^0.10.0",
-    "jest-runner-prettier": "^0.3.6",
+    "jest-runner-prettier": "^1.0.0",
     "prettier": "^2.0.5",
     "semantic-release": "^17.4.5"
   },
