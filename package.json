@@ -51,7 +51,7 @@
     "jest-runner-eslint": "^0.10.0",
     "jest-runner-prettier": "^0.3.6",
     "prettier": "^2.0.5",
-    "semantic-release": "^17.4.5"
+    "semantic-release": "^20.0.4"
   },
   "eslintConfig": {
     "extends": "starstuff/auto",
